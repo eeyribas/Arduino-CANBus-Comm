@@ -1,10 +1,16 @@
-# Arduino-CANBus-Communication
-This is an example of CAN-Bus communication with Arduino Uno. There are two applications available in the repository: a sender and a receiver. For CAN-Bus communication, MCP2515 and MCP2551 integrated circuits are used alongside Arduino.
+# Arduino-CANBus-Comm
+Contains Arduino CAN-Bus communication applications. For CAN-Bus communication, the MCP2515 and MCP2551 integrated circuits are used alongside Arduino. These applications are: Receiver and Sender.
+
+1. Sender: The Sender application sends 8-byte data to the Receiver application at specific intervals.
+
+2. Receiver: The Receiver application receives the 8-byte data from the Sender application and prints it to the serial monitor.
+
+Programming Language: C/C++ Programming Language
+
+IDE: Arduino IDE Version - 2.2.0
 
 Arduino Used: Arduino Uno
 
-Arduino IDE Version: 2.2.0
+CAN-Bus Arduino Library: The CAN_BUS_Shield.zip library is used for CAN-Bus communication. Include this library in your Arduino IDE.
 
-CAN-Bus Arduino Library: The library is included in the CAN_BUS_Shield.zip file in the repository. Please include this file in your Arduino Uno IDE.
-
-Arduino Connection Diagram: The connection diagram is shown in the (CAN-Bus Comm Breadbord.jpg) image.
+Arduino Connection Diagram: The connection between the Arduino and the MCP2515 and MCP2551 integrated circuits is shown in the (CAN-Bus Comm Breadbord.jpg) image.
